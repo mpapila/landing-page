@@ -1,11 +1,14 @@
 .header {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    gap: 10px;
 }
 .content_one {
     background-color: #1F2937;
-}
-.content_two {
-
 }
 .insparation_note {
     background-color: #E5E7EB;
