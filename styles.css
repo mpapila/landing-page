@@ -3,10 +3,10 @@ body {
     margin: 0;
 }
 .header, .content_one, .content_two, .insparation_note {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 150px;
+    padding-right: 150px;
     padding-top: 10px;
-    padding-bottom: 150px;
+    padding-bottom: 125px;
 }
 .header {
     background-color: #1F2937;
@@ -30,6 +30,7 @@ ul {
     justify-content: center;
     align-items: center;
     color: white;
+    margin-left: 25px;
 }
 button {
     padding-top: 5px;
@@ -40,6 +41,23 @@ button {
     border-radius: 10px;
     border: 0;
 }
+.content_two {
+    display: flex;
+    flex-direction: column;
+}
+.two_sub-content-one{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+.two_sub-content-two {
+    display: flex;
+}
+.ex_one {
+    border: 1px black solid;
+}
+
 
 
 
@@ -72,8 +90,4 @@ a, .one_text_b {
     font-size: 24px;
     color: #F9FAF8;
 } 
-.two_sub-content-two{
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937;
-}
+
