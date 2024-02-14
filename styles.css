@@ -1,0 +1,41 @@
+.header {
+    background-color: #1F2937;
+}
+.content_one {
+    background-color: #1F2937;
+}
+.content_two {
+
+}
+.insparation_note {
+    background-color: #E5E7EB;
+}
+.footer {
+    background-color: #1F2937;
+}
+.Sign-up, button {
+    background-color: #3882F6;
+    color: white;
+}
+li {
+    list-style-type: none;
+}
+a, .one_text_b {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.one_text_a {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.header_logo {
+    font-size: 24px;
+    color: #F9FAF8;
+} 
+.two_sub-content-two{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
