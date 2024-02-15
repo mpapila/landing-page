@@ -1,5 +1,4 @@
 body {
-    border: 5px solid black;
     margin: 0;
 }
 .header, .content_one, .content_two, .insparation_note {
@@ -21,6 +20,7 @@ ul {
 .content_one {
     background-color: #1F2937;
     display: flex;
+    justify-content: center;
 }
 .card {
     display: flex;
@@ -35,8 +35,8 @@ ul {
 button {
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
     margin-top: 10px;
     border-radius: 10px;
     border: 0;
@@ -44,35 +44,91 @@ button {
 .content_two {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .two_sub-content-one{
+    display: flex;
+    flex-direction: column;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    text-align: center;
+    padding-top: 25px;
 }
 .two_sub-content-two {
     display: flex;
 }
-.ex_one {
-    border: 1px black solid;
+.abc {
+    margin-right: 40px;
+    width: 175px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
 }
-
-
-
-
-
+.card_2 {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #478AF7;
+    border-radius: 20px;
+}
 .insparation_note {
     background-color: #E5E7EB;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+.note {
+    margin: 100px;
+    font-size: 36px; 
+    font-family: 'light italic'; 
+    color: #1F2937;
+    width: 800px;
+    height: 200px;
+}
+.Sign-up {
+    height: 175px;
+    margin-top: 100px;
+    margin-bottom: 75px;
+    margin-left: 150px;
+    margin-right: 125px;
+    border-radius: 20px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sub_card {
+    display: flex;
+    justify-content: space-evenly;
+}
+.sub_card button {
+    border: 2px white solid;
+    height: auto;
+} 
+button {
+    font-weight: 1000;
+    font-size: 24px;
 }
 .footer {
     background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 135px;
+    font-size: 24px;
+    font-weight: bolder;
 }
+
+
+
 .Sign-up, button {
     background-color: #3882F6;
     color: white;
 }
+
+
 li {
     list-style-type: none;
 }
